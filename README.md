@@ -43,28 +43,26 @@ Users should be able to:
 
 ### What I learned
 
-To see how you can add code snippets, see below:
+- Setting a background image using CSS. I also added a background color which I initially thought wouldnt be possible since there is a background image but it worked! 
 
-Setting a background image using CSS. I also added a background color which I initially thought wouldnt be possible since there is a background image but it worked! 
+      body {
+          background-image: url(images/pattern-background-mobile.svg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-color: hsl(225, 100%, 94%);
+          text-align: center;
+      }
 
-body {
-    background-image: url(images/pattern-background-mobile.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: hsl(225, 100%, 94%);
-    text-align: center;
-}
+- Adding a flex display to the pricing section which worked out well. I'm getting used to applying flexboxes.
 
-Adding a flex display to the pricing section which worked out well. I'm getting used to applying flexboxes.
-
-.annual-plan {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: hsl(225, 100%, 98%);
-    border-radius: 0.625rem;
-    align-items: center; 
-    margin: 1.25rem 0.9375rem;
-}
+      .annual-plan {
+          display: flex;
+          justify-content: space-evenly;
+          background-color: hsl(225, 100%, 98%);
+          border-radius: 0.625rem;
+          align-items: center; 
+          margin: 1.25rem 0.9375rem;
+      }
 
 ### Continued development
 
