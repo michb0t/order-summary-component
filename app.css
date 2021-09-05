@@ -1,0 +1,122 @@
+html {
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    text-align: center;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+.order-description h1 {
+    font-weight: 900;
+    padding-top: 1.5625rem;
+}
+
+.order-description p {
+    padding: 0 1.5625rem;
+}
+
+.main-component {
+    background-color: white;
+    border-radius: 1.5625rem;
+    box-shadow: 0px 0px 55px hsl(224, 23%, 55%);
+    max-width: 25rem;  
+    padding-bottom: 0.5rem;
+    margin: 100px auto 0 auto;
+
+}
+
+.annual-plan {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0.625rem;
+    align-items: center; 
+    margin: 1.25rem 0.9375rem;
+}
+
+.body-text {
+    margin-top: 0;
+}
+
+#plan-heading {
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 0.125rem;
+}
+
+.annual-plan-items:nth-child(2) {
+    width: 35%;
+    text-align: left;
+}
+
+#change {
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+#change:hover {
+   text-decoration: none;
+   color: hsl(224, 23%, 55%);
+}
+
+
+#header-img {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+#primary-btn {
+    display: block;
+    margin: 2rem 0.9375rem;
+    padding: 1.15rem;
+    text-decoration: none;
+    color: white;
+    background-color:hsl(245, 75%, 52%);
+    border-radius: 0.625rem;
+    box-shadow: 0px 10px 30px hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+#primary-btn:hover {
+    background-color: hsl(228, 45%, 44%);
+}
+
+#secondary-btn {
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+    font-weight: 700;
+    display: block;
+    padding-bottom: 20px;
+}
+
+#secondary-btn:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+.attribution { 
+    font-size: 12px; 
+    margin: 0;
+    padding: 0.825rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 600px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+}
